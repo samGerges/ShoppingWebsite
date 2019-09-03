@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GergessShoppingWCF", "GergessShopping\GergessShoppingWCF.csproj", "{12FA9B15-D244-48E9-8B4E-DF5F8E794F96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GergessShoppingWeb", "GergessShoppingWeb\GergessShoppingWeb.csproj", "{5718DC08-DF87-4915-A56E-DCD6231B8259}"
+	ProjectSection(ProjectDependencies) = postProject
+		{12FA9B15-D244-48E9-8B4E-DF5F8E794F96} = {12FA9B15-D244-48E9-8B4E-DF5F8E794F96}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12FA9B15-D244-48E9-8B4E-DF5F8E794F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12FA9B15-D244-48E9-8B4E-DF5F8E794F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12FA9B15-D244-48E9-8B4E-DF5F8E794F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12FA9B15-D244-48E9-8B4E-DF5F8E794F96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5718DC08-DF87-4915-A56E-DCD6231B8259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5718DC08-DF87-4915-A56E-DCD6231B8259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5718DC08-DF87-4915-A56E-DCD6231B8259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5718DC08-DF87-4915-A56E-DCD6231B8259}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D9EBB02-948A-47C1-8292-C151FB177E07}
+	EndGlobalSection
+EndGlobal
